@@ -1,5 +1,5 @@
 import { Cart, CartItem, Prisma } from "@prisma/client";
-import prisma from "./prisma";
+import { prisma } from "./prisma";
 import { cookies } from "next/dist/client/components/headers";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";

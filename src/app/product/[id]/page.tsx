@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import prisma from "@/lib/db/prisma";
+import { prisma } from "@/lib/db/prisma";
 import Image from "next/image";
 import PriceTag from "@/components/PriceTag";
 import { Metadata } from "next";
